@@ -22,7 +22,7 @@ const About = () => {
           src="/path/to/image.jpg" 
           srcSet="/path/to/image-400.jpg 400w, /path/to/image-800.jpg 800w" 
           sizes="(max-width: 768px) 400px, 800px"
-          alt="Portrait de Créa'Tine, passionnée d'artisanat" 
+          alt="Portrait de Thynes, passionnée d'artisanat" 
           className="w-64 h-64 rounded-full object-cover shadow-lg" 
           loading="lazy"
         />
