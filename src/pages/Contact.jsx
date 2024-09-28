@@ -17,10 +17,10 @@ const Contact = () => {
 
     emailjs
       .send(
-        'service_2q7krbf',   // <-- Remplace par ton service ID EmailJS
-        'template_6iohwxu',   // <-- Ici, tu places ton Template ID
+        import.meta.env.VITE_EMAILJS_SERVICE_ID,   // Utiliser import.meta.env au lieu de process.env
+        import.meta.env.VITE_EMAILJS_TEMPLATE_ID,  // Utiliser import.meta.env au lieu de process.env
         formData,
-        'DIahsymQAkYjhrtdu'        // <-- Remplace par ton User ID EmailJS
+        import.meta.env.VITE_EMAILJS_USER_ID        // <-- Remplace par ton User ID EmailJS
       )
       .then(
         (result) => {
