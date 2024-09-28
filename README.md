@@ -112,9 +112,9 @@ Forkez le projet
 
 Ce site a été conçu et développé par Mathieu Soussignan pour mettre en valeur les créations de Thynes.
 
-Email : contact.mathieu.soussignan@gmail.com
-Portfolio : https://mathieu-soussignan.com/
-LinkedIn : https://www.linkedin.com/in/mathieu-soussignan-007a07158/
+- Email : contact.mathieu.soussignan@gmail.com
+- Portfolio : https://mathieu-soussignan.com/
+- LinkedIn : https://www.linkedin.com/in/mathieu-soussignan-007a07158/
 
 ---
 
