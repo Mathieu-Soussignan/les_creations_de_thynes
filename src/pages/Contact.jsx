@@ -17,16 +17,17 @@ const Contact = () => {
 
     emailjs
       .send(
-        import.meta.env.REACT_APP_EMAILJS_SERVICE_ID,   // Utiliser import.meta.env au lieu de process.env
-        import.meta.env.REACT_APP_EMAILJS_TEMPLATE_ID,  // Utiliser import.meta.env au lieu de process.env
+        'service_2q7krbf',  // Remplacez par votre Service ID EmailJS
+        'template_6iohwxu',  // Votre Template ID
         formData,
-        import.meta.env.REACT_APP_EMAILJS_USER_ID        // <-- Remplace par ton User ID EmailJS
+        'DIahsymQAkYjhrtdu'       // Remplacez par votre User ID EmailJS
       )
       .then(
         (result) => {
           alert('Merci pour votre message ! Je vous répondrai bientôt.');
         },
         (error) => {
+          console.error('Erreur lors de l\'envoi du message:', error);
           alert('Erreur lors de l\'envoi du message, veuillez réessayer.');
         }
       );
