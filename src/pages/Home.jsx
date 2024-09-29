@@ -21,7 +21,7 @@ const Home = () => {
         transition={{ delay: 0.2, type: 'spring', stiffness: 120 }}
         className="text-4xl font-bold mb-6 text-[#4c6941]"
       >
-        Bienvenue dans l&apos;univers créatif de Thynes
+        Bienvenue dans l&apos;univers créatif de Thyne
       </motion.h1>
       <motion.p
         variants={fadeInUp}
@@ -40,7 +40,7 @@ const Home = () => {
           className="bg-white shadow-lg rounded-lg overflow-hidden transition duration-300 hover:shadow-xl border border-[#7e7064]"
         >
           <img
-            src={new URL('/src/assets/img/elfes.jpg', import.meta.url).href}
+            src={new URL('/src/assets/img/home-1.jpg', import.meta.url).href}
             alt="Créations récentes de Créa'Tine"
             className="w-full h-64 object-cover"
             loading="lazy"
@@ -64,7 +64,7 @@ const Home = () => {
           className="bg-white shadow-lg rounded-lg overflow-hidden transition duration-300 hover:shadow-xl border border-[#7e7064]"
         >
           <img
-            src={new URL('/src/assets/img/logo.jpg', import.meta.url).href}
+            src={new URL('/src/assets/img/home-2.jpg', import.meta.url).href}
             alt="À propos de Créa'Tine"
             className="w-full h-64 object-cover"
             loading="lazy"
