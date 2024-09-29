@@ -11,7 +11,7 @@ const Footer = () => {
       <div className="container mx-auto px-4">
         <div className="flex flex-wrap justify-between">
           <div className="w-full md:w-1/3 mb-6 md:mb-0">
-            <h3 className="text-xl font-semibold mb-2">L&apos;univers créatif de Thynes</h3>
+            <h3 className="text-xl font-semibold mb-2">L&apos;univers créatif de Thyne</h3>
             <p className="text-[#7e7064]">Créations artisanales uniques et faites avec passion.</p>
           </div>
           <div className="w-full md:w-1/3 mb-6 md:mb-0">
@@ -39,7 +39,7 @@ const Footer = () => {
           </div>
         </div>
         <div className="mt-8 text-center text-[#7e7064]">
-          <p>&copy; {new Date().getFullYear()} L&apos;univers créatif de Thynes. Tous droits réservés. Développé par <a href="https://www.mathieu-soussignan.com" target="_blank" rel="noopener noreferrer">Mathieu Soussignan</a></p>
+          <p>&copy; {new Date().getFullYear()} L&apos;univers créatif de Thyne. Tous droits réservés. Développé par <a href="https://www.mathieu-soussignan.com" target="_blank" rel="noopener noreferrer">Mathieu Soussignan</a></p>
         </div>
       </div>
     </footer>

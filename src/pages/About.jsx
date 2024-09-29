@@ -17,15 +17,15 @@ const About = () => {
       </header>
       
       <article className="flex flex-col md:flex-row items-center md:items-start gap-8">
-        {/* Image avec lazy loading et meilleure description pour l'accessibilité */}
-        <img 
-          src="/path/to/image.jpg" 
-          srcSet="/path/to/image-400.jpg 400w, /path/to/image-800.jpg 800w" 
-          sizes="(max-width: 768px) 400px, 800px"
-          alt="Portrait de Thynes, passionnée d'artisanat" 
-          className="w-64 h-64 rounded-full object-cover shadow-lg" 
-          loading="lazy"
-        />
+        {/* Conteneur de l'image en forme carrée */}
+        <div className="w-80 h-80 overflow-hidden shadow-lg flex-shrink-0"> {/* Carré avec largeur et hauteur égales */}
+          <img 
+            src="/src/assets/img/profil.jpg" 
+            alt="Portrait de Thynes, passionnée d'artisanat" 
+            className="w-full h-full object-cover"  // Assure que l'image couvre tout le conteneur sans déformation
+            loading="lazy"
+          />
+        </div>
         
         <div className="bg-white shadow-lg rounded-lg p-6">
           <Paragraph>
