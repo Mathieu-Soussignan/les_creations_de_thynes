@@ -1,3 +1,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+    font-family: 'Call Me Jigo';
+    src: url('./assets/fonts/CallmeJigo.otf') format('opentype'); /* Vérifiez le chemin par rapport à l'emplacement du fichier index.css */
+    font-weight: normal;
+    font-style: normal;
+}
