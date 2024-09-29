@@ -20,7 +20,7 @@ const About = () => {
         {/* Conteneur de l'image en forme carrée */}
         <div className="w-80 h-80 overflow-hidden shadow-lg flex-shrink-0"> {/* Carré avec largeur et hauteur égales */}
           <img 
-            src="/src/assets/img/profil.jpg" 
+            src="../src/assets/img/profil.jpg"
             alt="Portrait de Thynes, passionnée d'artisanat" 
             className="w-full h-full object-cover"  // Assure que l'image couvre tout le conteneur sans déformation
             loading="lazy"
