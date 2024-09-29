@@ -37,11 +37,11 @@ const Contact = () => {
 
   return (
     <div className="container mx-auto px-4 py-8">
-      <h1 className="text-4xl font-bold mb-6 text-[#4c6941]">Contactez-moi</h1>
+      <h1 className="text-4xl font-bold mb-6 text-[#4c6941] font-paradise">Contactez-moi</h1>
       <div className="max-w-lg mx-auto bg-white shadow-lg rounded-lg p-6">
         <form onSubmit={handleSubmit} className="space-y-4">
           <div>
-            <label htmlFor="name" className="block mb-1 font-medium text-gray-700">Nom</label>
+            <label htmlFor="name" className="block mb-1 font-medium text-gray-700 font-paradise">Nom</label>
             <input
               type="text"
               id="name"
@@ -49,11 +49,11 @@ const Contact = () => {
               value={formData.name}
               onChange={handleChange}
               required
-              className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-teal-500"
+              className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-teal-500 font-paradise"
             />
           </div>
           <div>
-            <label htmlFor="email" className="block mb-1 font-medium text-gray-700">Email</label>
+            <label htmlFor="email" className="block mb-1 font-medium text-gray-700 font-paradise">Email</label>
             <input
               type="email"
               id="email"
@@ -61,11 +61,11 @@ const Contact = () => {
               value={formData.email}
               onChange={handleChange}
               required
-              className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-teal-500"
+              className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-teal-500 font-paradise"
             />
           </div>
           <div>
-            <label htmlFor="message" className="block mb-1 font-medium text-gray-700">Message</label>
+            <label htmlFor="message" className="block mb-1 font-medium text-gray-700 font-paradise">Message</label>
             <textarea
               id="message"
               name="message"
@@ -73,10 +73,10 @@ const Contact = () => {
               onChange={handleChange}
               required
               rows="4"
-              className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-teal-500"
+              className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-teal-500 font-paradise"
             ></textarea>
           </div>
-          <button type="submit" className="w-full bg-[#4c6941] text-white py-2 px-4 rounded-md hover:bg-[#4c6941] transition duration-300">
+          <button type="submit" className="w-full bg-[#4c6941] text-white py-2 px-4 rounded-md hover:bg-[#4c6941] transition duration-300 font-paradise">
             Envoyer
           </button>
         </form>
