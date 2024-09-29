@@ -11,20 +11,20 @@ const Footer = () => {
       <div className="container mx-auto px-4">
         <div className="flex flex-wrap justify-between">
           <div className="w-full md:w-1/3 mb-6 md:mb-0">
-            <h3 className="text-xl font-semibold mb-2">L&apos;univers créatif de Thyne</h3>
-            <p className="text-[#7e7064]">Créations artisanales uniques et faites avec passion.</p>
+            <h3 className="text-xl font-semibold mb-2 font-paradise">L&apos;univers créatif de Thyne</h3>
+            <p className="text-[#7e7064] font-paradise">Créations artisanales uniques et faites avec passion.</p>
           </div>
           <div className="w-full md:w-1/3 mb-6 md:mb-0">
-            <h3 className="text-xl font-semibold mb-2">Liens rapides</h3>
+            <h3 className="text-xl font-semibold mb-2 font-paradise">Liens rapides</h3>
             <ul className="space-y-2">
-              <li><Link to="/" className="hover:text-[#A69483] transition duration-300">Accueil</Link></li>
-              <li><Link to="/creations" className="hover:text-[#A69483] transition duration-300">Créations</Link></li>
-              <li><Link to="/about" className="hover:text-[#A69483] transition duration-300">À propos</Link></li>
-              <li><Link to="/contact" className="hover:text-[#A69483] transition duration-300">Contact</Link></li>
+              <li><Link to="/" className="hover:text-[#A69483] transition duration-300 font-paradise">Accueil</Link></li>
+              <li><Link to="/creations" className="hover:text-[#A69483] transition duration-300 font-paradise">Créations</Link></li>
+              <li><Link to="/about" className="hover:text-[#A69483] transition duration-300 font-paradise">À propos</Link></li>
+              <li><Link to="/contact" className="hover:text-[#A69483] transition duration-300 font-paradise">Contact</Link></li>
             </ul>
           </div>
           <div className="w-full md:w-1/3">
-            <h3 className="text-xl font-semibold mb-2">Suivez-moi</h3>
+            <h3 className="text-xl font-semibold mb-2 font-paradise">Suivez-moi</h3>
             <div className="flex space-x-4">
               <a href="https://facebook.com" aria-label="Facebook" target="_blank" rel="noopener noreferrer" className="hover:text-[#A69483] transition duration-300">
                 <img src={FacebookIcon} alt="Facebook" className="w-6 h-6" loading="lazy" />

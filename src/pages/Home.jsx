@@ -13,7 +13,7 @@ const Home = () => {
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       transition={{ duration: 0.5 }}
-      className="container mx-auto px-4 py-8 bg-[#f1d8d8]"
+      className="container mx-auto px-4 py-8 bg-[#f1d8d8] font-paradise"
     >
       <motion.h1
         initial={{ y: -50 }}
@@ -27,7 +27,7 @@ const Home = () => {
         variants={fadeInUp}
         initial="initial"
         animate="animate"
-        className="text-xl mb-8 text-[#7e7064]"
+        className="text-xl mb-8 text-[#7e7064] font-paradise"
       >
         Découvrez mes créations uniques faites avec passion : crochet, tricot, sacs, nounours et bien plus encore !
       </motion.p>
@@ -37,7 +37,7 @@ const Home = () => {
           initial={{ x: -50, opacity: 0 }}
           animate={{ x: 0, opacity: 1 }}
           transition={{ delay: 0.6 }}
-          className="bg-white shadow-lg rounded-lg overflow-hidden transition duration-300 hover:shadow-xl border border-[#7e7064]"
+          className="bg-white shadow-lg rounded-lg overflow-hidden transition duration-300 hover:shadow-xl border border-[#7e7064] font-paradise"
         >
           <img
             src={new URL('/src/assets/img/home-1.jpg', import.meta.url).href}
@@ -46,11 +46,11 @@ const Home = () => {
             loading="lazy"
           />
           <div className="p-6">
-            <h2 className="text-2xl font-semibold mb-2 text-[#678D58]">Mes dernières créations</h2>
-            <p className="mb-4 text-[#7e7064]">Explorez mes projets les plus récents et laissez-vous inspirer.</p>
+            <h2 className="text-2xl font-semibold mb-2 text-[#678D58] font-paradise">Mes dernières créations</h2>
+            <p className="mb-4 text-[#7e7064] font-paradise">Explorez mes projets les plus récents et laissez-vous inspirer.</p>
             <Link
               to="/creations"
-              className="bg-[#F2D4D7] text-[#A69483] py-2 px-4 rounded hover:bg-[#A69483] hover:text-white transition duration-300 inline-block"
+              className="bg-[#F2D4D7] text-[#A69483] py-2 px-4 rounded hover:bg-[#A69483] hover:text-white transition duration-300 inline-block font-paradise"
             >
               Voir les créations
             </Link>
@@ -61,7 +61,7 @@ const Home = () => {
           initial={{ x: 50, opacity: 0 }}
           animate={{ x: 0, opacity: 1 }}
           transition={{ delay: 0.8 }}
-          className="bg-white shadow-lg rounded-lg overflow-hidden transition duration-300 hover:shadow-xl border border-[#7e7064]"
+          className="bg-white shadow-lg rounded-lg overflow-hidden transition duration-300 hover:shadow-xl border border-[#7e7064] font-paradise"
         >
           <img
             src={new URL('/src/assets/img/home-2.jpg', import.meta.url).href}
@@ -70,13 +70,13 @@ const Home = () => {
             loading="lazy"
           />
           <div className="p-6">
-            <h2 className="text-2xl font-semibold mb-2 text-[#678D58]">À propos de moi</h2>
-            <p className="mb-4 text-[#7e7064]">
+            <h2 className="text-2xl font-semibold mb-2 text-[#678D58] font-paradise">À propos de moi</h2>
+            <p className="mb-4 text-[#7e7064] font-paradise">
               Apprenez-en plus sur ma passion pour l&apos;artisanat et mon parcours créatif.
             </p>
             <Link
               to="/about"
-              className="bg-[#F2D4D7] text-[#A69483] py-2 px-4 rounded hover:bg-[#A69483] hover:text-white transition duration-300 inline-block"
+              className="bg-[#F2D4D7] text-[#A69483] py-2 px-4 rounded hover:bg-[#A69483] hover:text-white transition duration-300 inline-block font-paradise"
             >
               En savoir plus
             </Link>
