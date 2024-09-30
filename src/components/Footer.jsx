@@ -11,20 +11,20 @@ const Footer = () => {
       <div className="container mx-auto px-4">
         <div className="flex flex-wrap justify-between">
           <div className="w-full md:w-1/3 mb-6 md:mb-0">
-            <h3 className="text-xl font-semibold mb-2 font-paradise">L&apos;univers créatif de Thyne</h3>
-            <p className="text-[#7e7064] font-paradise">Créations artisanales uniques et faites avec passion.</p>
+            <h3 className="text-2xl font-semibold mb-2 font-paradise">L&apos;univers créatif de Thyne</h3>
+            <p className="text-[#7e7064] text-2xl font-paradise">Créations artisanales uniques et faites avec passion.</p>
           </div>
           <div className="w-full md:w-1/3 mb-6 md:mb-0">
-            <h3 className="text-xl font-semibold mb-2 font-paradise">Liens rapides</h3>
+            <h3 className="text-2xl font-semibold mb-2 font-paradise">Liens rapides</h3>
             <ul className="space-y-2">
-              <li><Link to="/" className="hover:text-[#A69483] transition duration-300 font-paradise">Accueil</Link></li>
-              <li><Link to="/creations" className="hover:text-[#A69483] transition duration-300 font-paradise">Créations</Link></li>
-              <li><Link to="/about" className="hover:text-[#A69483] transition duration-300 font-paradise">À propos</Link></li>
-              <li><Link to="/contact" className="hover:text-[#A69483] transition duration-300 font-paradise">Contact</Link></li>
+              <li><Link to="/" className="hover:text-[#A69483] transition duration-300 text-2xl font-paradise">Accueil</Link></li>
+              <li><Link to="/creations" className="hover:text-[#A69483] transition duration-300 text-2xl font-paradise">Créations</Link></li>
+              <li><Link to="/about" className="hover:text-[#A69483] transition duration-300 text-2xl font-paradise">À propos</Link></li>
+              <li><Link to="/contact" className="hover:text-[#A69483] transition duration-300 text-2xl font-paradise">Contact</Link></li>
             </ul>
           </div>
           <div className="w-full md:w-1/3">
-            <h3 className="text-xl font-semibold mb-2 font-paradise">Suivez-moi</h3>
+            <h3 className="text-2xl font-semibold mb-2 font-paradise">Suivez-moi</h3>
             <div className="flex space-x-4">
               <a href="https://facebook.com" aria-label="Facebook" target="_blank" rel="noopener noreferrer" className="hover:text-[#A69483] transition duration-300">
                 <img src={FacebookIcon} alt="Facebook" className="w-6 h-6" loading="lazy" />
@@ -38,7 +38,7 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        <div className="mt-8 text-center text-[#7e7064]">
+        <div className="mt-8 text-center text-2xl font-paradise text-[#7e7064]">
           <p>&copy; {new Date().getFullYear()} L&apos;univers créatif de Thyne. Tous droits réservés. Développé par <a href="https://www.mathieu-soussignan.com" target="_blank" rel="noopener noreferrer">Mathieu Soussignan</a></p>
         </div>
       </div>
