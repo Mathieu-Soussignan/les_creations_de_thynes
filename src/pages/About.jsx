@@ -13,21 +13,21 @@ const About = () => {
   return (
     <section className="container mx-auto px-4 py-8 font-paradise">
       <header>
-        <h1 className="text-4xl font-bold mb-6 text-[#4c6941] font-paradise">À propos de moi</h1>
+        <h1 className="text-5xl font-bold mb-6 text-[#4c6941] font-paradise">À propos de moi</h1>
       </header>
       
       <article className="flex flex-col md:flex-row items-center md:items-start gap-8">
         {/* Conteneur de l'image en forme carrée */}
         <div className="w-80 h-80 overflow-hidden shadow-lg flex-shrink-0"> {/* Carré avec largeur et hauteur égales */}
           <img 
-            src={new URL('/src/assets/img/profil.jpg', import.meta.url).href}
+            src={new URL('/src/assets/img/profil-2.jpg', import.meta.url).href}
             alt="Portrait de Thynes, passionnée d'artisanat" 
             className="w-full h-full object-cover"  // Assure que l'image couvre tout le conteneur sans déformation
             loading="lazy"
           />
         </div>
         
-        <div className="bg-white shadow-lg rounded-lg p-6 font-paradise">
+        <div className="bg-white shadow-lg rounded-lg p-6 text-2xl font-paradise">
           <Paragraph>
             Hello ! Je suis Thyne, une passionnée d&apos;artisanat et de création depuis toujours.
           </Paragraph>

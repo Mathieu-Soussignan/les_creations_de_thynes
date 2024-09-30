@@ -19,7 +19,7 @@ const Home = () => {
         initial={{ y: -50 }}
         animate={{ y: 0 }}
         transition={{ delay: 0.2, type: 'spring', stiffness: 120 }}
-        className="text-4xl font-bold mb-6 text-[#4c6941]"
+        className="text-5xl font-bold mb-6 text-[#4c6941]"
       >
         Bienvenue dans l&apos;univers créatif de Thyne
       </motion.h1>
@@ -27,7 +27,7 @@ const Home = () => {
         variants={fadeInUp}
         initial="initial"
         animate="animate"
-        className="text-xl mb-8 text-[#7e7064] font-paradise"
+        className="text-2xl mb-8 text-[#7e7064] font-paradise"
       >
         Découvrez mes créations uniques faites avec passion : crochet, tricot, sacs, nounours et bien plus encore !
       </motion.p>
@@ -46,11 +46,11 @@ const Home = () => {
             loading="lazy"
           />
           <div className="p-6">
-            <h2 className="text-2xl font-semibold mb-2 text-[#678D58] font-paradise">Mes dernières créations</h2>
-            <p className="mb-4 text-[#7e7064] font-paradise">Explorez mes projets les plus récents et laissez-vous inspirer.</p>
+            <h2 className="text-4xl font-semibold mb-2 text-[#678D58] font-paradise">Mes dernières créations</h2>
+            <p className="mb-4 text-[#7e7064] text-2xl font-paradise">Explorez mes projets les plus récents et laissez-vous inspirer.</p>
             <Link
               to="/creations"
-              className="bg-[#F2D4D7] text-[#A69483] py-2 px-4 rounded hover:bg-[#A69483] hover:text-white transition duration-300 inline-block font-paradise"
+              className="bg-[#F2D4D7] text-[#A69483] text-2xl py-2 px-4 rounded hover:bg-[#A69483] hover:text-white transition duration-300 inline-block font-paradise"
             >
               Voir les créations
             </Link>
@@ -70,13 +70,13 @@ const Home = () => {
             loading="lazy"
           />
           <div className="p-6">
-            <h2 className="text-2xl font-semibold mb-2 text-[#678D58] font-paradise">À propos de moi</h2>
-            <p className="mb-4 text-[#7e7064] font-paradise">
+            <h2 className="text-4xl font-semibold mb-2 text-[#678D58] font-paradise">À propos de moi</h2>
+            <p className="mb-4 text-[#7e7064] text-2xl font-paradise">
               Apprenez-en plus sur ma passion pour l&apos;artisanat et mon parcours créatif.
             </p>
             <Link
               to="/about"
-              className="bg-[#F2D4D7] text-[#A69483] py-2 px-4 rounded hover:bg-[#A69483] hover:text-white transition duration-300 inline-block font-paradise"
+              className="bg-[#F2D4D7] text-[#A69483] text-2xl py-2 px-4 rounded hover:bg-[#A69483] hover:text-white transition duration-300 inline-block font-paradise"
             >
               En savoir plus
             </Link>

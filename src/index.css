@@ -4,7 +4,7 @@
 
 @font-face {
     font-family: 'CallmeJigo';
-    src: url('../src/assets/fonts/CallmeJigo.otf') format('opentype'); /* Vérifiez le chemin par rapport à l'emplacement du fichier index.css */
+    src: url('../src/assets/fonts/Autumn\ in\ September.ttf') format('opentype'); /* Vérifiez le chemin par rapport à l'emplacement du fichier index.css */
     font-weight: normal;
     font-style: normal;
 }

@@ -34,7 +34,7 @@ const Header = () => {
                         <Link
                           key={item.name}
                           to={item.href}
-                          className="text-[#7e7064] hover:bg-[#A69483] hover:text-white px-3 py-2 rounded-md text-sm font-medium transition duration-300 font-paradise"
+                          className="text-[#7e7064] hover:bg-[#A69483] hover:text-white text-2xl px-3 py-2 rounded-md font-medium transition duration-300 font-paradise"
                         >
                           {item.name}
                         </Link>
@@ -45,7 +45,7 @@ const Header = () => {
 
                 {/* Mobile Menu Button */}
                 <div className="md:hidden">
-                  <Disclosure.Button className="bg-[#F2D4D7] inline-flex items-center justify-center p-2 rounded-md text-[#A69483] hover:text-white hover:bg-[#A69483] focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-[#F2D4D7] font-paradise">
+                  <Disclosure.Button className="bg-[#F2D4D7] inline-flex items-center justify-center p-2 rounded-md text-[#A69483] text-2xl hover:text-white hover:bg-[#A69483] focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-[#F2D4D7] font-paradise">
                     <span className="sr-only">Open main menu</span>
                     {open ? (
                       <XMarkIcon className="block h-6 w-6" aria-hidden="true" />
@@ -64,7 +64,7 @@ const Header = () => {
                   <Link
                     key={item.name}
                     to={item.href}
-                    className="text-[#7e7064] hover:bg-[#A69483] hover:text-white block px-3 py-2 rounded-md text-base font-medium transition duration-300 font-paradise"
+                    className="text-[#7e7064] hover:bg-[#A69483] hover:text-white block px-3 py-2 rounded-md text-2xl font-medium transition duration-300 font-paradise"
                   >
                     {item.name}
                   </Link>
