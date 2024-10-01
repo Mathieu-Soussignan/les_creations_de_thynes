@@ -12,7 +12,7 @@ const creations = [
   { id: 2, name: 'Doudou dans un style Waldorf', category: 'Crochet', image: photo2, description: 'Doudou dans un style Waldorf, très câlin et confortable.' },
   { id: 3, name: 'Jolie doudou style Waldorf', category: 'Crochet', image: photo3, description: 'Jolie doudou style Waldorf, parfait pour une chambre de bébé.' },
   { id: 4, name: 'Mitaines fait main au tricot', category: 'Tricot', image: photo4, description: 'Mitaines fait main au tricot, avec un fil fin et fil mohair tricoté ensemble, pour les journées d\'hiver qui arrivent très vite.' },
-  { id: 5, name: 'Chaussettes en dentelles', category: 'Tricot', image: photo5, description: 'Chaussetes en dentelles, taille 36, mais bien entendu réalisables dans toutes les tailles et toutes les couleurs.' },
+  { id: 5, name: 'Chaussettes en dentelles', category: 'Tricot', image: photo5, description: 'Chaussettes en dentelles, taille 36, mais bien entendu réalisables dans toutes les tailles et toutes les couleurs.' },
   { id: 6, name: 'Sac en tricot', category: 'Tricot', image: photo6, description: 'Mon coup de cœur, un sac à crochets tricoté à la main.' },
 ];
 

@@ -21,7 +21,7 @@ const Header = () => {
                 <div className="flex items-center">
                   <Link to="/" className="flex-shrink-0">
                     <img
-                      className="h-10 w-10 rounded-full"
+                      className="h-14 w-14 sm:h-14 sm:w-14 rounded-full"
                       src={new URL('/src/assets/img/logo-thynes.JPEG', import.meta.url).href}
                       alt="Logo Créa'Tine"
                     />
