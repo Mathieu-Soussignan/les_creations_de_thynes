@@ -12,7 +12,7 @@ const creations = [
   { id: 2, name: 'Doudou dans un style Waldorf', category: 'Crochet', image: photo2, description: 'Doudou dans un style Waldorf, très câlin et confortable.' },
   { id: 3, name: 'Jolie doudou style Waldorf', category: 'Crochet', image: photo3, description: 'Jolie doudou style Waldorf, parfait pour une chambre de bébé.' },
   { id: 4, name: 'Mitaines fait main au tricot', category: 'Tricot', image: photo4, description: 'Mitaines fait main au tricot, avec un fil fin et fil mohair tricoté ensemble, pour les journées d\'hiver qui arrivent très vite.' },
-  { id: 5, name: 'Chaussetes en dentelles', category: 'Tricot', image: photo5, description: 'Chaussetes en dentelles, taille 36, mais bien entendu réalisables dans toutes les tailles et toutes les couleurs.' },
+  { id: 5, name: 'Chaussettes en dentelles', category: 'Tricot', image: photo5, description: 'Chaussetes en dentelles, taille 36, mais bien entendu réalisables dans toutes les tailles et toutes les couleurs.' },
   { id: 6, name: 'Sac en tricot', category: 'Tricot', image: photo6, description: 'Mon coup de cœur, un sac à crochets tricoté à la main.' },
 ];
 
@@ -56,8 +56,8 @@ const Creations = () => {
 
       {/* Modale pour afficher l'image agrandie */}
       {selectedCreation && (
-        <div className="fixed inset-0 bg-black bg-opacity-75 flex items-center justify-center z-50">
-          <div className="bg-white p-4 rounded-lg max-w-2xl relative">
+        <div className="fixed inset-0 bg-black bg-opacity-75 flex items-center justify-center z-50 p-4">
+          <div className="bg-white p-4 rounded-lg max-w-2xl max-h-[90vh] overflow-y-auto relative">
             {/* Bouton de fermeture */}
             <button
               className="absolute top-2 right-2 text-gray-600 hover:text-gray-900"
@@ -65,12 +65,12 @@ const Creations = () => {
             >
               ✖
             </button>
-            
+
             {/* Image agrandie avec taille limitée */}
             <img
               src={selectedCreation.image}
               alt={selectedCreation.name}
-              className="w-full max-h-[32rem] object-contain mb-4" // Limite la hauteur de l'image à 24rem
+              className="w-full max-h-64 sm:max-h-80 lg:max-h-96 object-contain mb-4"
             />
 
             {/* Titre et catégorie */}
