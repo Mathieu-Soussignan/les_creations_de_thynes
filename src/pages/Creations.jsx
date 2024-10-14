@@ -5,6 +5,7 @@ import photo3 from '../assets/img/photo-3.jpg';
 import photo4 from '../assets/img/photo-4.jpg';
 import photo5 from '../assets/img/photo-5.jpg';
 import photo6 from '../assets/img/photo-6.jpg';
+import photo7 from '../assets/img/photo-7.jpg';
 
 // Liste des créations avec description ajoutée
 const creations = [
@@ -14,6 +15,7 @@ const creations = [
   { id: 4, name: 'Mitaines fait main au tricot', category: 'Tricot', image: photo4, description: 'Mitaines fait main au tricot, avec un fil fin et fil mohair tricoté ensemble, pour les journées d\'hiver qui arrivent très vite.' },
   { id: 5, name: 'Chaussettes en dentelles', category: 'Tricot', image: photo5, description: 'Chaussettes en dentelles, taille 36, mais bien entendu réalisables dans toutes les tailles et toutes les couleurs.' },
   { id: 6, name: 'Sac en tricot', category: 'Tricot', image: photo6, description: 'Mon coup de cœur, un sac à crochets tricoté à la main.' },
+  { id: 6, name: 'Mitaines en pure laine', category: 'Tricot', image: photo7, description: 'Jolies mitaines en pure laine pour mettre les mains au chaud cet hiver, fait main bien sûr 🙂' },
 ];
 
 const Creations = () => {
