@@ -29,7 +29,7 @@ const Footer = () => {
               <a href="https://facebook.com" aria-label="Facebook" target="_blank" rel="noopener noreferrer" className="hover:text-[#A69483] transition duration-300">
                 <img src={FacebookIcon} alt="Facebook" className="w-6 h-6" loading="lazy" />
               </a>
-              <a href="https://instagram.com" aria-label="Instagram" target="_blank" rel="noopener noreferrer" className="hover:text-[#A69483] transition duration-300">
+              <a href="https://www.instagram.com/lescreationsdethyne/" aria-label="Instagram" target="_blank" rel="noopener noreferrer" className="hover:text-[#A69483] transition duration-300">
                 <img src={InstagramIcon} alt="Instagram" className="w-6 h-6" loading="lazy" />
               </a>
               <a href="https://pinterest.com" aria-label="Pinterest" target="_blank" rel="noopener noreferrer" className="hover:text-[#A69483] transition duration-300">
